@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+set -o errexit
+PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
+
+pkg_add http://pkgsrc.smartos.skylime.net/skylime-extra/2014Q2/x86_64/sniproxy-0.3.4.tgz
+
+# clean up
+rm -rf /root/*
+sm-prepare-image -y

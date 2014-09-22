@@ -1,0 +1,7 @@
+ame="snisix"
+organization="SkyLime"
+brand="Instance"
+version="14.2.0"
+description="SNI Proxy to make IPv6 only services available for IPv4 only users"
+homepage="https://github.com/skylime"
+users="root admin"
